@@ -16,9 +16,12 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "types": ["vite/client"],
+    "baseUrl": ".",
     "noEmit": true,
     "jsx": "react-jsx"
+
   },
-  "include": ["src"],
+  "include": ["src", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
