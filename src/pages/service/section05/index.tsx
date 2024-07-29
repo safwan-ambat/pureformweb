@@ -62,7 +62,7 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({ testimonial }
 );
 
 const TestimonialContainer: React.FC = () => {
-  const [items, setItems] = useState<Testimonial[]>([...testimonials, ...testimonials]); // Duplicate items for seamless loop
+  const [items, ] = useState<Testimonial[]>([...testimonials, ...testimonials]); // Duplicate items for seamless loop
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
