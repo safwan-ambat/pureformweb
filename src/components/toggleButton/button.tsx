@@ -1,4 +1,3 @@
-// ToggleButton.tsx
 import React from 'react';
 
 interface ToggleOption {
@@ -14,23 +13,22 @@ interface ToggleButtonProps {
 
 const ToggleButton: React.FC<ToggleButtonProps> = ({ options, activeOption, onToggle }) => {
   return (
-    <div className="flex justify-center items-center mt-[88px]">
-      <div className="bg-black rounded-full p-0.5  ">
-        <div className="relative flex items-center bg-black rounded-full h-[200px] w-[540px] ">
+    <div className="flex justify-center items-center mt-8 sm:mt-12 md:mt-[88px]">
+      <div className="bg-black rounded-full p-0.5">
+        <div className="relative flex items-center bg-black rounded-full h-[100px] sm:h-[150px] md:h-[200px] w-full sm:w-[400px] md:w-[540px]">
           <div
-            className={`absolute h-full rounded-full transition-all duration-300  ${
-              activeOption === options[0].id ? 'left-100%' : 'left-1/2 '
-            }`}
+            className="absolute h-full rounded-full transition-all duration-500 ease-in-out"
             style={{
-              width: `calc(50% - 0.5px)`,
-              background: 'radial-gradient(circle at top left, #ffffff, #d1d1d1)',
+              width: `calc(50% - 0.25px)`,
+              background: 'radial-gradient(circle at top left, #EBEBEB, #d1d1d1)',
+              transform: `translateX(${activeOption === options[0].id ? '0' : '100%'})`,
             }}
           />
           {options.map((option) => (
             <button
               key={option.id}
               onClick={() => onToggle(option.id)}
-              className={`flex-1 h-full text-sm sm:text-base font-medium z-10 transition-colors duration-300 flex items-center justify-center rounded-full ${
+              className={`flex-1 h-full text-xs sm:text-sm md:text-base font-medium z-10 transition-colors duration-300 flex items-center justify-center rounded-full ${
                 activeOption === option.id ? 'text-black' : 'text-white hover:text-gray-200'
               }`}
               aria-pressed={activeOption === option.id}
