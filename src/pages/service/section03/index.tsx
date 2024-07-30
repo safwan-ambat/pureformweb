@@ -1,6 +1,5 @@
 import React from 'react';
 import img01 from '@/assets/img01.webp';
-import img02 from '@/assets/img02.webp';
 
 
 // Sample data
