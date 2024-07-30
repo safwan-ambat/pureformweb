@@ -28,11 +28,19 @@ module.exports = {
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
       },
+
+      
     },
     screens: {
-      xs: "480px",
-      sm: "768px",
-      md: "1060px",
+      'sm': '480px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      
+      // sm: "480px",
+      // sm: "768px",
+      // md: "1060px",
     },
   },
   plugins: [],

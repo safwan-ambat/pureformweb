@@ -21,3 +21,27 @@ body,
   font-weight: normal;
   font-style: normal;
 }
+
+h1 {
+  font-size: 34px;
+  line-height: 1.24; /* 140% is more typical and readable */
+}
+
+@media (min-width: 640px) { /* sm breakpoint in Tailwind */
+  h1 {
+    font-size: 48px;
+    line-height: 1.24; /* 124% */
+  }
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.24; /* mobile */
+}
+
+@media (min-width: 640px) { /* laptop -  sm breakpoint in Tailwind */
+  h2 {
+    font-size: 40px;
+    line-height: 1.24; /* 124% */
+  }
+}

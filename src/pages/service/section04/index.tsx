@@ -35,9 +35,9 @@ const PricingCard: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center py-12 px-4">
       {/* Header Section */}
-      <div className="text-center mb-8 w-[612px]">
-        <h1 className="text-[40px] font-bold text-black">Simplified pricing 
-        <span className='text-gray-400'> No contracts or hidden surprises.</span></h1>
+      <div className="text-center mb-8 lg:w-[612px]">
+        <h2 className=" font-bold text-black">Simplified pricing 
+        <span className='text-gray-400'> No contracts or hidden surprises.</span></h2>
       </div>
 
       {/* Pricing Card */}

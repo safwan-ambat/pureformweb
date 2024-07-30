@@ -15,7 +15,7 @@ const ToggleButton: React.FC<ToggleButtonProps> = ({ options, activeOption, onTo
   return (
     <div className="flex justify-center items-center mt-8 sm:mt-12 md:mt-[88px]">
       <div className="bg-black rounded-full p-0.5">
-        <div className="relative flex items-center bg-black rounded-full h-[100px] sm:h-[150px] md:h-[200px] w-full sm:w-[400px] md:w-[540px]">
+        <div className="relative flex items-center bg-black rounded-full h-[104px] sm:h-[104px] md:h-[200px] w-[281px] sm:w-[281px] md:w-[540px]">
           <div
             className="absolute h-full rounded-full transition-all duration-500 ease-in-out"
             style={{

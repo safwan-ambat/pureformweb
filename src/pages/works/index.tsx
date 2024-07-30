@@ -8,11 +8,11 @@ import web from '@/assets/work/wWeb.webp';
 const WorksPage: React.FC = () => {
   return (
     <div className="w-full">
-      <header className="text-center px-4 sm:px-8 md:px-16 lg:px-[356px] mt-8 sm:mt-12 lg:mt-[56px]">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold my-0 px-2 sm:px-4 md:px-8 lg:px-[100px]">
+      <header className="text-center px-4 sm:px-[16px] md:px-16 lg:px-[356px] mt-8 sm:mt-12 lg:mt-[56px]">
+        <h1 className=" font-bold my-0 px-2 sm:px-4 md:px-8 lg:px-[100px]">
           Projects shipped for startups to unicorns
         </h1>
-        <p className="text-base sm:text-lg lg:text-[18px] text-black mt-4 sm:mt-6 lg:mt-[32px] max-w-3xl mx-auto">
+        <p className="text-base sm:text-[16px] lg:text-[18px] text-black mt-4 sm:mt-6 lg:mt-[32px] max-w-3xl mx-auto">
           We are your design partner that's always available
           as you grow or downsize. You can pause or cancel anytime,
           just need a quick fix? Deck for a YC call? Come back unpause and reuse your remaining days.
