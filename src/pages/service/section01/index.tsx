@@ -31,9 +31,9 @@ const steps = [
 const StepsSection: React.FC = () => {
   return (
     <section className="flex flex-col items-center mt-[88px]">
-      <h1 className="text-3xl font-bold mb-10">
+      <h2 className=" px-14 text-center text-[28px] md:text-[40px] font-semibold mb-10">
         Magic happens in <span className="text-gray-400">just 4 steps</span>
-      </h1>
+      </h2>
       <div className="flex flex-wrap justify-center">
         {steps.map((step) => (
           <Card
