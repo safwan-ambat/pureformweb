@@ -32,11 +32,11 @@ const cardData = [
 const CardList: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-4xl font-bold text-center mb-8">
+      <h2 className=" font-bold text-center mb-8">
         We’re the Uber of design
         <br />
         <span className="text-gray-400">always ready to go</span>
-      </h1>
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] w-full max-w-[760px]">
         {cardData.map((card, index) => (
           <Card
