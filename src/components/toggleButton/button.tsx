@@ -1,4 +1,5 @@
 import React from 'react';
+import bgImg from '@/assets/toggleBg.webp';
 
 interface ToggleOption {
   id: string;
@@ -20,7 +21,10 @@ const ToggleButton: React.FC<ToggleButtonProps> = ({ options, activeOption, onTo
             className="absolute h-full rounded-full transition-all duration-500 ease-in-out"
             style={{
               width: `calc(50% - 0.25px)`,
-              background: 'radial-gradient(circle at top left, #EBEBEB, #d1d1d1)',
+              backgroundImage: `url(${bgImg})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              // background: 'radial-gradient(circle at top left, #EBEBEB, #d1d1d1)',
               transform: `translateX(${activeOption === options[0].id ? '0' : '100%'})`,
             }}
           />

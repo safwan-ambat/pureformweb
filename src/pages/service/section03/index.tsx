@@ -1,5 +1,7 @@
 import React from 'react';
-import img01 from '@/assets/img01.webp';
+import img01 from '@/assets/Im01.webp';
+import img02 from '@/assets/Im02.webp';
+import cardbg from '@/assets/cardBg.webp';
 
 
 // Sample data
@@ -14,23 +16,26 @@ const CardList: React.FC = () => {
             <span className="text-gray-400">without breaking the bank</span>
         </h2>
         <div className="flex gap-4">
-            <div className="grid grid-cols-1 gap-[16px] md:w-[297px] ">
-                    <div className="flex text-white justify-center items-center bg-black h-[150px]  rounded-lg"> 
+            <div className="grid grid-cols-1 gap-[8px] md:w-[297px]  ">
+                    <div className="flex text-white justify-center items-center bg-black h-[160px]  rounded-lg"> 
                         <h3 className=' '>$150k+ per year</h3>
                     </div>
-                    <div className="flex gap-2 border-t-2 ">
+                    <div className="flex gap-2 border-t-2 pt-[16px] mt-4 ">
                         <img src={img01} className='h-6'/>
                         <h3>Hiring full time </h3>
                     </div>
                     <p className='text-[12px]'>Overpriced,varied skill,locked  into  contact</p>
             </div>
-            <div className="grid grid-cols-1 gap-[16px] md:w-[297px] ">
-                    <div className="flex flex-col justify-end bg-gray-400 h-[150px] rounded-lg"> 
-                        <div className="h-[48px] bg-[#45BC65] rounded "></div>
+            <div className="grid grid-cols-1 gap-[8px] md:w-[297px] ">
+                    <div className="flex flex-col h-[160px] justify-end " 
+                            style={{ backgroundImage: `url(${cardbg})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center', }}>  
+                            <h3 className=' text-white text-center pb-[13px]'>$8,000 per month</h3>        
                     </div>
-                    <div className="flex gap-2 border-t-2 ">
-                        <img src={img01} className='h-6'/>
-                        <h3>Hiring full time </h3>
+                    <div className="flex gap-2 border-t-2 pt-[16px] mt-4">
+                        <img src={img02} className='h-6'/>
+                        <h3>Engaging with Pureform </h3>
                     </div>
                     <p className='text-[12px]'>Overpriced,varied skill,locked  into  contact</p>
             </div>
