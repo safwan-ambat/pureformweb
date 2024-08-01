@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: '.vercel/output/static',
+    outDir: 'dist',
     emptyOutDir: true,
   }
 })
