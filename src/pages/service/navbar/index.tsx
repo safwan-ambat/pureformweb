@@ -1,5 +1,5 @@
 
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/logo.webp";
 
 const Navbar: React.FC = () => {
   return (
