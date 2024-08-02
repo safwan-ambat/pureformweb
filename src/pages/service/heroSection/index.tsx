@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="text-center px-4 sm:px-[16px] md:px-12  xl:px-[356px] mt-8 sm:mt-12 md:mt-[56px]">
+    <section className="text-center px-[16px] md:px-12  xl:px-[356px] mt-8 sm:mt-12 md:mt-[56px]">
       <h1 className=" font-bold my-0 px-2 sm:px-4 md:px-8 lg:px-[100px]">
         Design Partner for fast shipping teams
       </h1>

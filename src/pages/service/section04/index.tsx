@@ -1,4 +1,10 @@
 import React from 'react';
+import icon1 from '@/assets/icon1.webp'
+import icon2 from '@/assets/icon2.webp'
+import icon3 from '@/assets/icon3.webp'
+import icon4 from '@/assets/icon4.webp'
+import icon5 from '@/assets/icon5.webp'
+import profile from '@/assets/profile.webp'
 
 // Define the type for feature data
 type Feature = {
@@ -9,23 +15,23 @@ type Feature = {
 // Array of feature objects
 const features: Feature[] = [
   {
-    imageUrl: '/path/to/image1.png', // Replace with the actual path to your image
+    imageUrl: icon1, // Replace with the actual path to your image
     text: 'Experienced Designer',
   },
   {
-    imageUrl: '/path/to/image2.png', // Replace with the actual path to your image
+    imageUrl: icon2, // Replace with the actual path to your image
     text: 'No contracts',
   },
   {
-    imageUrl: '/path/to/image3.png', // Replace with the actual path to your image
+    imageUrl: icon3, // Replace with the actual path to your image
     text: '2+ Updates per week',
   },
   {
-    imageUrl: '/path/to/image4.png', // Replace with the actual path to your image
+    imageUrl: icon4, // Replace with the actual path to your image
     text: 'Cancel anytime',
   },
   {
-    imageUrl: '/path/to/image5.png', // Replace with the actual path to your image
+    imageUrl: icon5, // Replace with the actual path to your image
     text: 'Private Slack Channel',
   },
 ];
@@ -58,11 +64,11 @@ const PricingCard: React.FC = () => {
           </p>
           {/* Action Buttons */}
           <div className="mt-4 flex items-center justify-left gap-[24px]">
-            <button className="flex items-center bg-gray-200 hover:bg-gray-200 text-gray-800 font-medium py-2 px-4 rounded-full transition duration-200">
+            <button className="text-[12px] md:text-[18px] flex items-center bg-gray-200 hover:bg-black hover:text-gray-100 text-gray-800 font-medium p-[3px] md:p-[5px] pr-[16px] md:pr-[16px] rounded-full transition duration-200 ">
               <img
-                src="https://via.placeholder.com/24"
+                src={profile}
                 alt="User"
-                className="w-6 h-6 rounded-full mr-2"
+                className="w-[28px] h-[28px] sm:w-[46px] sm:h-[46px] rounded-full mr-2"
               />
               Schedule an intro
             </button>
@@ -73,7 +79,7 @@ const PricingCard: React.FC = () => {
         </div>
 
         {/* Features List */}
-        <div className="border-t border-gray-200 p-4 grid grid-cols-2 gap-y-2">
+        <div className="border-t border-gray-200 bg-[#F2F2F2] p-4 grid grid-cols-2 gap-y-2">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center space-x-2">
               <img

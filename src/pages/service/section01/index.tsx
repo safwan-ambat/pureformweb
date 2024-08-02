@@ -34,7 +34,7 @@ const StepsSection: React.FC = () => {
       <h2 className=" px-14 text-center  font-semibold mb-10">
         Magic happens in <span className="text-gray-400">just 4 steps</span>
       </h2>
-      <div className="grid md:grid-cols-4 grid-cols-2 justify-center">
+      <div className="grid md:grid-cols-4 grid-cols-2 justify-center px-[16px] md:px-0">
         {steps.map((step) => (
           <Card
             key={step.number}
