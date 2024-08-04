@@ -57,3 +57,10 @@ h5 {
     line-height: 1.24; /* 124% */
   }
 }
+
+.StyledWord {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 2px;
+  background: linear-gradient(17deg, rgba(19,20,21,1) 21%, rgba(88,92,97,1) 36%, rgba(19,20,21,1) 58%);
+}

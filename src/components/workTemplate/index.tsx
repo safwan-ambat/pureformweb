@@ -1,4 +1,5 @@
 import React from 'react';
+import Styled from '@/components/styledWord';
 
 interface ImageProps {
   src: string;
@@ -18,9 +19,10 @@ interface TemplateProps {
 
 const Template: React.FC<TemplateProps> = ({ mainImage, mob1, mob2, webImg }) => {
   return (
-    <div className="w-full mx-auto py-8">
-      <h3 className="text-2xl font-medium text-center mb-6">Social space for home building</h3>
-      
+    <div className="w-full mx-auto ">
+        <p className="text-[16px] text-center md:mb-[40px] mt-[80px]"><Styled>0 → 1</Styled> <Styled>B</Styled> <Styled>P</Styled> <Styled>PD</Styled> <Styled>\</Styled></p>
+        <h3 className="text-2xl font-medium text-center mb-[56px]">Social space for home building</h3>
+
       <div className="mb-6">
         <div className="border border-blue-200 rounded-3xl  ">
           <div className="  rounded-4xl">
