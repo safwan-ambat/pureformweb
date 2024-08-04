@@ -8,7 +8,7 @@ interface StyledProps {
 }
 
 const Styled: React.FC<StyledProps> = ({ children, className = '' }) => (
-  <span className={`inline-block StyledWord  text-white my-[8px] py-[3px] px-[8px] ${className}`}>
+  <span className={`inline-block StyledWord  text-white my-[6px] py-[3px] px-[8px] ${className}`}>
     {children}
   </span>
 );
