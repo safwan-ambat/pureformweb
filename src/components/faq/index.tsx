@@ -23,7 +23,7 @@ const FAQItem: React.FC<{ item: FAQItem, isOpen: boolean, toggleOpen: () => void
       className="w-full md:w-[566px] text-left p-3 md:p-4 bg-white rounded-lg  hover:shadow-md transition-shadow duration-200 flex justify-between items-center"
     >
       <span className="text-gray-800 text-sm md:text-base">{item.question}</span>
-      <span className="text-gray-500 text-lg md:text-xl ml-2">{isOpen ? '−' : '+'}</span>
+      <span className="text-gray-100 text-lg md:text-xl ml-2">{isOpen ? '−' : '+'}</span>
     </button>
     {isOpen && (
       <div className="p-3 md:p-4 bg-gray-50 rounded-b-lg mt-1 text-gray-600 text-sm md:text-base">
@@ -41,8 +41,8 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="max-w-full md:max-w-2xl mx-auto p-3 md:p-4 bg-gray-200 rounded-xl">
-      <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-800">Frequently Asked Questions</h2>
+    <div className="max-w-full md:max-w-2xl mx-auto pb-0 pt-[5px] px-[5px] md:pt-[8px] md:px-[8px] bg-gray-50 rounded-xl">
+      
       {faqData.map((item, index) => (
         <FAQItem
           key={index}
