@@ -73,11 +73,8 @@ h5 {
 }
 
 .borderStyle{
-  border-width: 4px; /* Set the border width */
-  border-style: solid; /* Set the border style */
-  box-sizing: border-box;
-  border-radius: 4px;
-  border-image: linear-gradient(-180deg, rgb(216, 216, 216), rgb(148, 148, 148)) 1;
+  
+  background-color: linear-gradient(-180deg, rgb(216, 216, 216), rgb(254, 7, 7)) 1;
 }
 
 .styledTestimonial {

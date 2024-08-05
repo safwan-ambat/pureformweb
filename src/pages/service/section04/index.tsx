@@ -39,7 +39,7 @@ const features: Feature[] = [
 // PricingCard Component
 const PricingCard: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-12 px-4">
+    <div className="flex flex-col items-center py-12 px-4">
       {/* Header Section */}
       <div className="text-center mb-8 lg:w-[612px]">
         <h2 className=" font-bold text-black">Simplified pricing 
@@ -47,24 +47,24 @@ const PricingCard: React.FC = () => {
       </div>
 
       {/* Pricing Card */}
-      <div className="max-w-md w-full bg-white border-4 border-gray-400 rounded-lg  overflow-hidden">
+      <div className="max-w-lg bg-white border-4 border-gray-400 rounded-lg  overflow-hidden">
         {/* Card Header */}
         <div className="border-b border-gray-400 p-4 flex justify-between items-center">
-          <div>
-            <span className="text-lg font-medium text-gray-400">Design with Pureform</span>
-            <span className="text-lg text-gray-500"> $3000/mo</span>
-          </div>
-          <span className="text-sm text-gray-600">● 3 spots left</span>
+            <div className='flex gap-2'>
+              <h5 className=" font-semibold">Design with Pureform</h5>
+              <h5 className="font-semibold"> $3000/mo</h5>
+            </div>
+            <h5 className="">● 3 spots left</h5>
         </div>
 
         {/* Card Body */}
         <div className="p-4">
-          <p className="text-gray-700 text-sm">
+          <h5 className="">
             Perfect if you're looking to build an MVP, improve your product or need ongoing design support.
-          </p>
+          </h5>
           {/* Action Buttons */}
           <div className="mt-4 flex items-center justify-left gap-[24px]">
-            <button className="text-[12px] md:text-[18px] flex items-center bg-gray-200 hover:bg-black hover:text-gray-100 text-gray-800 font-medium p-[3px] md:p-[5px] pr-[16px] md:pr-[16px] rounded-full transition duration-200 ">
+            <button className="text-[12px] md:text-[18px] flex items-center bg-gray-200 hover:bg-black hover:text-gray-100 text-gray-800 font-normal p-[3px] md:p-[5px] pr-[16px] md:pr-[16px] rounded-full transition duration-200 ">
               <img
                 src={profile}
                 alt="User"
@@ -72,14 +72,14 @@ const PricingCard: React.FC = () => {
               />
               Schedule an intro
             </button>
-            <button className="text-gray-400 hover:text-gray-700 font-medium items-center transition duration-200">
+            <h5 className="text-[#131415]/40 font-normal items-center transition duration-200">
               Cancel anytime
-            </button>
+            </h5>
           </div>
         </div>
 
         {/* Features List */}
-        <div className="border-t border-gray-200 bg-[#F2F2F2] p-4 grid grid-cols-2 gap-y-2">
+        <div className="rounded-[4px] bg-[#F2F2F2] p-4 grid grid-cols-2 gap-y-2">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center space-x-2">
               <img
