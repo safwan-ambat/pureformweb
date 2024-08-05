@@ -32,7 +32,7 @@ const ToggleButton: React.FC<ToggleButtonProps> = ({ options, activeOption, onTo
             <button
               key={option.id}
               onClick={() => onToggle(option.id)}
-              className={`flex-1 h-full text-xs sm:text-sm md:text-base font-medium z-10 transition-colors duration-300 flex items-center justify-center rounded-full ${
+              className={`flex-1 h-full text-[14px] md:text-[24px] font-semibold z-10 transition-colors duration-300 flex items-center justify-center rounded-full ${
                 activeOption === option.id ? 'text-black' : 'text-white hover:text-gray-200'
               }`}
               aria-pressed={activeOption === option.id}
