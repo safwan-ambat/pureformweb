@@ -20,13 +20,13 @@ const FAQItem: React.FC<{ item: FAQItem, isOpen: boolean, toggleOpen: () => void
   <div className="mb-2">
     <button
       onClick={toggleOpen}
-      className="w-full md:w-[566px] text-left p-3 md:p-4 bg-white rounded-lg  hover:shadow-md transition-shadow duration-200 flex justify-between items-center"
+      className="w-full md:w-[566px] text-left p-[12px] md:p-[25px] bg-white rounded-[8px] border-2 hover:shadow-md transition-shadow duration-200 flex justify-between items-center"
     >
       <span className="text-gray-800 text-sm md:text-base">{item.question}</span>
       <span className="text-gray-100 text-lg md:text-xl ml-2">{isOpen ? '−' : '+'}</span>
     </button>
     {isOpen && (
-      <div className="p-3 md:p-4 bg-gray-50 rounded-b-lg mt-1 text-gray-600 text-sm md:text-base">
+      <div className="p-3 md:p-4 bg-gray-50 rounded-b-[8px] mt-1 text-gray-600 text-sm md:text-base">
         {item.answer}
       </div>
     )}
@@ -41,7 +41,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="max-w-full md:max-w-2xl mx-auto pb-0 pt-[5px] px-[5px] md:pt-[8px] md:px-[8px] bg-gray-50 rounded-xl">
+    <div className="max-w-full md:max-w-2xl md:mx-auto  mx-[16px] pb-0 pt-[6px] px-[5px] md:pt-[8px] md:px-[8px] faqBg rounded-[10px] md:rounded-[16px]">
       
       {faqData.map((item, index) => (
         <FAQItem

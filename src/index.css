@@ -100,3 +100,14 @@ h5 {
     rgba(229, 229, 229, 0.4) 100%  /* Fourth color with 80% opacity */
   );
 }
+
+.faqBg {
+  background: rgb(235, 235, 235);
+  background: linear-gradient(
+    -37deg,
+    rgba(235, 235, 235, 0.4) 0%,   /* First color with 80% opacity */
+    rgba(215, 214, 214, 0.4) 23%,  /* Second color with 80% opacity */
+    rgba(176, 176, 176, 0.4) 56%,  /* Third color with 80% opacity */
+    rgba(229, 229, 229, 0.4) 100%  /* Fourth color with 80% opacity */
+  );
+}
