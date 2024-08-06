@@ -19,7 +19,7 @@ const WorksPage: React.FC = () => {
         </p>
       </header>
       
-      <div className="px-4 sm:px-8 md:px-12 lg:px-[60px] overflow:hidden">
+      <div className="px-4 sm:px-8 md:px-12 lg:px-[60px]">
         <Template 
           mainImage={{ src: `${mainImg}`, alt: "Main image" }}
           mob1={{ src: `${mob1}`, alt: "Image 1" }}
