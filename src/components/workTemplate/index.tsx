@@ -25,7 +25,7 @@ const Template: React.FC<TemplateProps> = ({ mainImage, mob1, mob2, webImg }) =>
 
       <div className="mb-6">
         <div className="border border-blue-200 rounded-3xl  ">
-          <div className="  rounded-4xl">
+          <div className="  rounded-4xl w-fit">
             <Image {...mainImage} />
           </div>
         </div>
