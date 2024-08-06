@@ -26,25 +26,25 @@ const Template: React.FC<TemplateProps> = ({ mainImage, mob1, mob2, webImg }) =>
       <h3 className="text-xl md:text-2xl font-medium text-center mb-14">Social space for home building</h3>
       
       <div className="mb-6">
-        <div className="border border-blue-200 rounded-3xl overflow-hidden">
+        <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl overflow-hidden">
           <Image {...mainImage} />
         </div>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <div className="border border-[#EBEBEB] rounded-2xl p-4 md:p-14 flex justify-center items-center">
+        <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 md:p-14 flex justify-center items-center">
           <div className="w-full max-w-[329px] aspect-[329/676]">
             <Image {...mob1} />
           </div>
         </div>
-        <div className="border border-[#EBEBEB] rounded-2xl p-4 md:p-14 flex justify-center items-center">
+        <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 md:p-14 flex justify-center items-center">
           <div className="w-full max-w-[329px] aspect-[329/676]">
             <Image {...mob2} />
           </div>
         </div>
       </div>
       
-      <div className="border border-[#EBEBEB] rounded-2xl p-4 md:p-22 flex justify-center items-center">
+      <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 md:p-22 flex justify-center items-center">
         <div className="w-full max-w-[798px] aspect-[798/421]">
           <Image {...webImg} />
         </div>
