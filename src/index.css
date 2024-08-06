@@ -46,6 +46,18 @@ h2 {
   }
 }
 
+h4 {
+  font-size: 14px;
+  line-height: 1.24; /* mobile */
+}
+
+@media (min-width: 640px) { /* laptop -  sm breakpoint in Tailwind */
+  h4 {
+    font-size: 18px;
+    line-height: 1.24; /* 124% */
+  }
+}
+
 h5 {
   font-size: 12px;
   line-height: 1.24; /* mobile */
