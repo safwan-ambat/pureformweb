@@ -15,7 +15,7 @@ const CardList: React.FC = () => {
           <div className="flex flex-col justify-end bg-black h-[160px] rounded-lg">
             <h3 className='text-white text-center pb-[13px]'>$150k+ per year</h3>
           </div>
-          <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px]">
+          <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px] items-center">
             <img src={img01} alt="Icon" className='h-6 w-6 object-contain'/>
             <h5 className="font-semibold">Hiring full time</h5>
           </div>
@@ -32,7 +32,7 @@ const CardList: React.FC = () => {
           >
             <h3 className='text-white text-center pb-[13px]'>$8,000 per month</h3>
           </div>
-          <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px]">
+          <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px] items-center">
             <img src={img02} alt="Icon" className='h-6 w-6 object-contain'/>
             <h5 className="font-semibold">Engaging with Pureform</h5>
           </div>

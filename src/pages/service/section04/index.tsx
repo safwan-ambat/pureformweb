@@ -4,6 +4,7 @@ import icon2 from '@/assets/icon2.webp'
 import icon3 from '@/assets/icon3.webp'
 import icon4 from '@/assets/icon4.webp'
 import icon5 from '@/assets/icon5.webp'
+import spiralIcon from '@/assets/iconSpiral.webp'
 import profile from '@/assets/profile.webp'
 
 // Define the type for feature data
@@ -51,6 +52,11 @@ const PricingCard: React.FC = () => {
         {/* Card Header */}
         <div className="border-b border-gray-400 p-4 flex justify-between items-center">
             <div className='flex gap-2'>
+            <img
+                src={spiralIcon}
+                alt="icon"
+                className="h-[16px] w-[16px] md:h-[24px] md:w-[24px]"
+              />
               <h5 className=" font-semibold">Design with Pureform</h5>
               <h5 className="font-semibold"> $3000/mo</h5>
             </div>
@@ -85,9 +91,9 @@ const PricingCard: React.FC = () => {
               <img
                 src={feature.imageUrl}
                 alt={`Feature ${index + 1}`}
-                className="h-6 w-6"
+                className="h-[14px] w-[14px] md:h-[24px] md:w-[24px]"
               />
-              <span className="text-sm text-gray-700">{feature.text}</span>
+              <h5 className=" primary-100">{feature.text}</h5>
             </div>
           ))}
         </div>
