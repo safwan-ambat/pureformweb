@@ -37,7 +37,7 @@ const ToggleButton: React.FC<ToggleButtonProps> = ({ options, activeOption, onTo
               transform: `translateX(${activeOption === options[0].id ? '0' : '100%'})`,
             }}
           />
-          {options.map((option, index) => (
+          {options.map((option) => (
             <span
               key={option.id}
               className={`flex-1 h-full text-[14px] md:text-[24px] font-semibold z-10 transition-colors duration-300 flex items-center justify-center ${
