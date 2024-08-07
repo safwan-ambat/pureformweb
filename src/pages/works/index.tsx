@@ -10,7 +10,7 @@ const WorksPage: React.FC = () => {
     <div className="w-full">
       <header className="text-center mt-8 sm:mt-12 lg:mt-[56px]">
         <h1 className=" font-bold my-0 ">
-          Projects shipped for<br/> startups to unicorns
+          Projects shipped for<br/> <span className='font-georgia italic'>startups to unicorns</span>
         </h1>
         <p className="text-base sm:text-[16px] lg:text-[18px] text-black mt-4 sm:mt-6 lg:mt-[32px] max-w-3xl mx-auto  px-[20px] md:px-[60px] ">
           We are your design partner that's always available

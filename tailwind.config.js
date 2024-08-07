@@ -21,7 +21,8 @@ module.exports = {
         "mobile-home": "url('./assets/HomePageGraphic.png')",
       }),
       fontFamily: {
-        geist: ['Geist', 'sans-serif'],
+        geist: ['Geist','sans-serif'],
+        georgia: ['georgia','sans-serif']
       },
       content: {
         evolvetext: "url('./assets/EvolveText.png')",
