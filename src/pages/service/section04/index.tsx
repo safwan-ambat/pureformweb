@@ -49,7 +49,7 @@ const PricingCard: React.FC = () => {
       </div>
 
       {/* Pricing Card */}
-      <div className="max-w-lg bg-white border-4 border-gray-400 rounded-lg  overflow-hidden">
+      <div className="max-w-lg bg-white border-4 border-[#9f9e9e] rounded-lg  overflow-hidden">
         {/* Card Header */}
         <div className="border-b border-gray-400 p-[16px] pb-[10px] sm:p-[24px] sm:pb-[14px]  flex justify-between items-center">
             <div className='flex gap-2'>

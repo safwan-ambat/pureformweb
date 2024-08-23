@@ -19,8 +19,8 @@ import web03 from '@/assets/work/w3Web.webp';
 
 const WorksPage: React.FC = () => {
   return (
-    <div className="w-full">
-      <header className="text-center mt-8 sm:mt-12 lg:mt-[56px]">
+    <div className="w-full ">
+      <header className="text-center mt-8 sm:mt-12 lg:mt-[56px]  mb-[72px] sm:mb-[80px]">
         <h1 className=" font-bold my-0 ">
           Projects shipped for<br/> <span className='font-georgia italic'>startups to unicorns</span>
         </h1>
@@ -33,24 +33,32 @@ const WorksPage: React.FC = () => {
       
       <div className="px-4 sm:px-8 md:px-12 lg:px-[60px]">
         <Template 
+          title='Superdev'
+          about='No-code DevOps automation Platform'
           mainImage={{ src: `${mainImg}`, alt: "Main image" }}
           mob1={{ src: `${mob1}`, alt: "Image 1" }}
           mob2={{ src: `${mob2}`, alt: "Image 2" }}
           webImg={{ src: `${web}`, alt: "Image 3" }}
         />
         <Template 
+          title='Mywasiyat'
+          about='Enabling every Indian to create a legally valid will'
           mainImage={{ src: `${mainImg01}`, alt: "Main image" }}
           mob1={{ src: `${mob101}`, alt: "Image 1" }}
           mob2={{ src: `${mob201}`, alt: "Image 2" }}
           webImg={{ src: `${web01}`, alt: "Image 3" }}
         />
         <Template 
+          title='Unbox'
+          about='Social space for home building'
           mainImage={{ src: `${mainImg02}`, alt: "Main image" }}
           mob1={{ src: `${mob102}`, alt: "Image 1" }}
           mob2={{ src: `${mob202}`, alt: "Image 2" }}
           webImg={{ src: `${web02}`, alt: "Image 3" }}
         />
         <Template 
+          title='Whatsay'
+          about='SasS tool enabling conversational survey on Whatsapp, Telegram'
           mainImage={{ src: `${mainImg03}`, alt: "Main image" }}
           mob1={{ src: `${mob103}`, alt: "Image 1" }}
           mob2={{ src: `${mob203}`, alt: "Image 2" }}
