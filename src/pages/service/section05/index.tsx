@@ -38,7 +38,7 @@ const testimonials: Testimonial[] = [
 ];
 
 const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({ testimonial }) => (
-  <div className="styledTestimonial border-2 rounded-lg p-6 mr-4 flex-shrink-0 w-80">
+  <div className=" hidden styledTestimonial border-2 rounded-lg p-6 mr-4 flex-shrink-0 w-80">
     <div className="mb-4">
       <p className="text-gray-800 text-lg font-medium">{testimonial.quote}</p>
     </div>
