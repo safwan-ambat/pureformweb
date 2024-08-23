@@ -96,7 +96,7 @@ const TestimonialContainer: React.FC = () => {
   const handleMouseLeave = () => setIsPaused(false);
 
   return (
-    <div className=" mx-auto w-full py-16 ">
+    <div className="hidden mx-auto w-full py-16 ">
       <div 
         ref={scrollContainerRef}
         className="flex overflow-x-hidden pb-4  px-4"
