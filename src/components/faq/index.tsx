@@ -6,8 +6,8 @@ interface FAQItem {
 }
 
 const faqData: FAQItem[] = [
-  { question: "What happens after I subscribe?", answer: "After subscribing, you'll gain access to our design services..." },
-  { question: "Why not hire a full-time designer?", answer: "Hiring a full-time designer can be costly and may not be necessary..." },
+  { question: "Who is behind Pureform?", answer: "After subscribing, you'll gain access to our design services.After subscribing, you'll gain access to our design services." },
+  { question: "What all you design", answer: "Hiring a full-time designer can be costly and may not be necessary..." },
   { question: "How much design work will I get?", answer: "The amount of design work depends on your subscription plan..." },
   { question: "How quickly can I start?", answer: "You can start immediately after subscribing..." },
   { question: "What design software do you use?", answer: "We use industry-standard design software such as..." },

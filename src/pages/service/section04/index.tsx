@@ -51,7 +51,7 @@ const PricingCard: React.FC = () => {
       {/* Pricing Card */}
       <div className="max-w-lg bg-white border-4 border-gray-400 rounded-lg  overflow-hidden">
         {/* Card Header */}
-        <div className="border-b border-gray-400 p-4 flex justify-between items-center">
+        <div className="border-b border-gray-400 p-[16px] pb-[10px] sm:p-[24px] sm:pb-[14px]  flex justify-between items-center">
             <div className='flex gap-2'>
             <img
                 src={spiralIcon}
@@ -59,23 +59,23 @@ const PricingCard: React.FC = () => {
                 className="h-[16px] w-[16px] md:h-[24px] md:w-[24px]"
               />
               <h5 className=" font-semibold">Design with Pureform</h5>
-              <h5 className="font-semibold"> $3000/mo</h5>
+              
             </div>
             <h5 className="">● 3 spots left</h5>
         </div>
 
         {/* Card Body */}
-        <div className="p-4">
+        <div className="p-[16px] sm:p-[24px]">
           <h5 className="">
             Perfect if you're looking to build an MVP, improve your product or need ongoing design support.
           </h5>
           {/* Action Buttons */}
-          <div className="mt-4 flex items-center justify-left gap-[24px]">
-            <button className="text-[12px] md:text-[18px] flex items-center bg-gray-200 hover:bg-black hover:text-gray-100 text-gray-800 font-normal p-[3px] md:p-[5px] pr-[16px] md:pr-[16px] rounded-full transition duration-200 ">
+          <div className="mt-[24px] flex items-center justify-left gap-[24px]">
+            <button className="text-[12px] md:text-[18px] flex items-center bg-[#F2F2F2] hover:bg-black hover:text-gray-100 text-gray-800 font-normal p-[3px] md:p-[5px] pr-[16px] md:pr-[20px] rounded-full transition duration-200 ">
               <img
                 src={profile}
                 alt="User"
-                className="w-[28px] h-[28px] sm:w-[46px] sm:h-[46px] rounded-full mr-2"
+                className="w-[28px] h-[28px] sm:w-[40px] sm:h-[40px] rounded-full mr-2"
               />
               Schedule an intro
             </button>
@@ -86,13 +86,13 @@ const PricingCard: React.FC = () => {
         </div>
 
         {/* Features List */}
-        <div className="rounded-[4px] bg-[#F2F2F2] p-4 grid grid-cols-2 gap-y-2">
+        <div className="rounded-[4px] bg-[#F2F2F2] p-[16px] sm:p-[24px] grid grid-cols-2 gap-y-[16px] sm:gap-y-[24px]">
           {features.map((feature, index) => (
-            <div key={index} className="flex items-center space-x-2">
+            <div key={index} className="flex items-center space-x-2 ]">
               <img
                 src={feature.imageUrl}
                 alt={`Feature ${index + 1}`}
-                className="h-[14px] w-[14px] md:h-[24px] md:w-[24px]"
+                className="h-[14px] w-[14px] md:h-[24px] md:w-[24px] "
               />
               <h5 className=" primary-100">{feature.text}</h5>
             </div>
