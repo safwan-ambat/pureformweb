@@ -1,9 +1,9 @@
 import React from 'react';
 import Template from '@/components/workTemplate';
-import mainImg from '@/assets/work/w1Main.webp';
-import mob1 from '@/assets/work/w1Mob1.webp';
-import mob2 from '@/assets/work/w1Mob2.webp';
-import web from '@/assets/work/w1Web.webp';
+import mainImg from '@/assets/work/wMain.webp';
+import mob1 from '@/assets/work/wMob1.webp';
+import mob2 from '@/assets/work/wMob2.webp';
+import web from '@/assets/work/wWeb.webp';
 import mainImg01 from '@/assets/work/w1Main.webp';
 import mob101 from '@/assets/work/w1Mob1.webp';
 import mob201 from '@/assets/work/w1Mob2.webp';
@@ -36,8 +36,8 @@ const WorksPage: React.FC = () => {
           title='Superdev'
           about='No-code DevOps automation Platform'
           mainImage={{ src: `${mainImg}`, alt: "Main image" }}
-          mob1={{ src: `${mob1}`, alt: "Image 1" }}
-          mob2={{ src: `${mob2}`, alt: "Image 2" }}
+          tab1={{ src: `${mob1}`, alt: "Image 1" }}
+          tab2={{ src: `${mob2}`, alt: "Image 2" }}
           webImg={{ src: `${web}`, alt: "Image 3" }}
         />
         <Template 
