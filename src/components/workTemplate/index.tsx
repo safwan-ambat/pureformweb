@@ -24,7 +24,7 @@ interface TemplateProps {
 const Template: React.FC<TemplateProps> = ({ title, about, mainImage, mob1, mob2, tab1, tab2, webImg }) => {
   return (
     <div className="w-full mx-auto mb-[64px] sm:mb-[136px]">
-      <h2 className=" font-georgia italic font-semibold text-center mb-2 md:mb-4">{title}</h2>
+      <h2 className=" font-georgia italic font-semibold text-[24px] sm:text-[32px] text-center mb-2 md:mb-4">{title}</h2>
       
       <h3 className="text-xl md:text-2xl font-medium text-center mb-[16px] sm:mb-[40px]">{about}</h3>
       
@@ -42,7 +42,7 @@ const Template: React.FC<TemplateProps> = ({ title, about, mainImage, mob1, mob2
         <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 flex justify-center items-center">
           <div className="flex flex-col items-center justify-center w-full h-full">
             {mob1 && (
-              <div className="w-full max-w-[329px] aspect-[116/230] border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] mb-4 overflow-hidden">
+              <div className="w-full max-w-[329px] border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] mb-4 overflow-hidden">
                 <Image {...mob1} />
               </div>
             )}
@@ -56,7 +56,7 @@ const Template: React.FC<TemplateProps> = ({ title, about, mainImage, mob1, mob2
         <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 flex justify-center items-center">
           <div className="flex flex-col items-center justify-center w-full h-full">
             {mob2 && (
-              <div className="w-full max-w-[329px] aspect-[116/230] border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] mb-4 overflow-hidden">
+              <div className="w-full max-w-[329px]  border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] mb-4 overflow-hidden">
                 <Image {...mob2} />
               </div>
             )}
@@ -70,7 +70,7 @@ const Template: React.FC<TemplateProps> = ({ title, about, mainImage, mob1, mob2
       </div>
       
       <div className="border border-[#EBEBEB] rounded-xl md:rounded-3xl p-4 md:p-[22px] flex justify-center items-center">
-        <div className="w-full max-w-[798px] aspect-[798/421] border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] overflow-hidden">
+        <div className="w-full max-w-[798px] border border-[#EBEBEB] rounded-[4px] md:rounded-[12px] overflow-hidden">
           <Image {...webImg} />
         </div>
       </div>
