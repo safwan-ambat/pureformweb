@@ -30,7 +30,7 @@ const CardList: React.FC = () => {
               backgroundPosition: 'center',
             }}
           >
-            <h3 className='text-white text-center pb-[13px]'>Value-Driven Billing</h3>
+            <h3 className='text-white italic text-center pb-[13px]'>Value-Driven Billing</h3>
           </div>
           <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px] items-center">
             <img src={img02} alt="Icon" className='h-6 w-6 object-contain'/>

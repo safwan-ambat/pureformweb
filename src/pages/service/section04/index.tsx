@@ -37,6 +37,9 @@ const features: Feature[] = [
   },
 ];
 
+const handleButtonClick = () =>{
+  window.open('https://cal.com/pureform/20min','_blank') 
+}
 // PricingCard Component
  /*margin bottom to be removed when testemonial is unhidden */
 const PricingCard: React.FC = () => {
@@ -71,7 +74,9 @@ const PricingCard: React.FC = () => {
           </h5>
           {/* Action Buttons */}
           <div className="mt-[24px] flex items-center justify-left gap-[24px]">
-            <button className="text-[12px] md:text-[18px] flex items-center bg-[#F2F2F2] hover:bg-black hover:text-gray-100 text-gray-800 font-normal p-[3px] md:p-[5px] pr-[16px] md:pr-[20px] rounded-full transition duration-200 ">
+            <button className="text-[12px] md:text-[18px] flex items-center bg-[#F2F2F2] hover:bg-black hover:text-gray-100 text-gray-800 font-normal p-[3px] md:p-[5px] pr-[16px] md:pr-[20px] rounded-full transition duration-200 "
+                    onClick={handleButtonClick}
+            >
               <img
                 src={profile}
                 alt="User"
