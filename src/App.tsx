@@ -36,7 +36,7 @@ const App: React.FC = () => {
  
       
       {/* Responsive Fixed Button at bottom right */}
-      <div className="fixed bottom-[60px] sm:top-[22px] sm:right-[56px] self-center sm:self-start -rotate-2">
+      <div className="fixed bottom-[24px] sm:top-[22px] sm:right-[56px] self-center sm:self-start -rotate-2">
         <Button 
           text="Book your kickoff"
           onClick={handleButtonClick}

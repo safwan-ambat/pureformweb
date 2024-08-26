@@ -19,7 +19,7 @@ const CardList: React.FC = () => {
             <img src={img01} alt="Icon" className='h-6 w-6 object-contain'/>
             <h5 className="font-semibold">Hiring full time</h5>
           </div>
-          <p className='text-[12px] h-[36px]'>Overpriced, varied skill, locked into contract</p>
+          <p className='text-[12px] h-[36px]'>High costs. Unpredictable skill fit. Long-term lock-in</p>
         </div>
         <div className="grid grid-cols-1 gap-[8px] w-full md:w-[297px]">
           <div 
@@ -36,7 +36,7 @@ const CardList: React.FC = () => {
             <img src={img02} alt="Icon" className='h-6 w-6 object-contain'/>
             <h5 className="font-semibold">Engaging with Pureform</h5>
           </div>
-          <p className='text-[12px] h-[36px]'>Flexible, tailored solutions, scalable engagement</p>
+          <p className='text-[12px] h-[36px]'>Expert design, whenever you need it. No strings attached</p>
         </div>
       </div>
     </div>
