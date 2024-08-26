@@ -20,8 +20,8 @@ import web03 from '@/assets/work/w3Web.webp';
 const WorksPage: React.FC = () => {
   return (
     <div className="flex justify-center w-full">
-      <div className="w-full max-w-7xl px-4 sm:px-8 md:px-12 lg:px-[60px]">
-        <header className="text-center mt-8 sm:mt-12 lg:mt-[56px] mb-[72px] sm:mb-[80px]">
+      <div className="w-full max-w-7xl sm:px-8 md:px-12 lg:px-[60px]">
+        <header className="px-[10px] text-center mt-8 sm:mt-12 lg:mt-[56px] mb-[72px] sm:mb-[80px]">
           <h1 className="font-bold my-0">
             Projects shipped for<br/> <span className='font-georgia italic'>startups to unicorns</span>
           </h1>
@@ -32,7 +32,7 @@ const WorksPage: React.FC = () => {
           </p>
         </header>
         
-        <div>
+        <div className='px-[16px]'>
           <Template
             title='Superdev'
             about='No-code DevOps automation Platform'

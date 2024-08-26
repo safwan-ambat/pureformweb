@@ -26,7 +26,7 @@ const Template: React.FC<TemplateProps> = ({ title, about, mainImage, mob1, mob2
     <div className="w-full mx-auto mb-[64px] sm:mb-[136px]">
       <h2 className=" font-georgia italic font-semibold text-[24px] sm:text-[32px] text-center mb-2 md:mb-4">{title}</h2>
       
-      <h3 className="text-xl md:text-2xl font-medium text-center mb-[16px] sm:mb-[40px]">{about}</h3>
+      <h3 className=" px-[60px] sm:px-0 text-xl md:text-2xl font-regular text-center mb-[16px] sm:mb-[40px]">{about}</h3>
       
       <p className="text-base text-center mb-[24px] sm:mb-[56px]">
         <Styled>0 → 1</Styled> <Styled>B</Styled> <Styled>P</Styled> <Styled>PD</Styled> <Styled>\</Styled>

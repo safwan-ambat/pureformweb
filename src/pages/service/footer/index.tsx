@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer 
-      className="bg-black text-white py-3 bg-cover bg-center relative mt-[88px]"
+      className="bg-black text-white py-3 bg-cover bg-center relative mt-[88px] "
       style={{ backgroundImage: "url('src/assets/footerBg.png')" }}
     >
       {/* Overlay to ensure text visibility */}
