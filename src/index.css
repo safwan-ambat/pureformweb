@@ -121,3 +121,10 @@ h5 {
     rgba(229, 229, 229, 0.4) 100%  /* Fourth color with 80% opacity */
   );
 }
+
+.StyledBtn {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 100;
+  background: linear-gradient(-130deg, rgba(19,20,21,1) 21%, rgba(88,92,97,1) 36%, rgba(19,20,21,1) 58%);
+}
