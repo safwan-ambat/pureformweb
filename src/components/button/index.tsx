@@ -14,13 +14,11 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({
   text,
   onClick,
-  textSize = 'text-base',
-  textColor = 'text-white',
   className = '',
 }) => {
   return (
     <button
-      className={` ${textSize} ${textColor} py-[20px] px-[20px] rounded-full hover:opacity-80 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${className}`}
+      className={` py-[20px] px-[20px] rounded-full hover:opacity-80 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#E8E8E8] ${className}`}
       onClick={onClick}
     >
       {text}

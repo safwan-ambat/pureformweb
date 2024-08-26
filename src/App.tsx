@@ -18,9 +18,9 @@ const App: React.FC = () => {
     setActiveSection(selectedId);
   };
 
-  const handleButtonClick = () => {
-    console.log('Custom button clicked!');
-  };
+  const handleButtonClick = () =>{
+    window.open('https://cal.com/pureform/20min','_blank') 
+  }
 
   return (
     <main className={`flex flex-col min-h-screen bg-white w-full font-geist relative`}>
@@ -33,18 +33,17 @@ const App: React.FC = () => {
         />
         {activeSection === 'offer' ? <Service /> : <Works />}
       </main>
-      <Footer />
+ 
       
       {/* Responsive Fixed Button at bottom right */}
-      <div className="fixed bottom-[22px] sm:right-[56px] self-center">
+      <div className="fixed bottom-[22px] sm:top-[22px] sm:right-[56px] self-center sm:self-start">
         <Button 
-          text="Schedule a call"
+          text="Book your kickoff"
           onClick={handleButtonClick}
-          textSize="text-lg"
-          textColor="text-purple-500 md:text-white"
-          className="StyledBtn py-[20px] px-[20px] "
+          className="StyledBtn py-[20px] px-[20px] font-s "
         />
       </div>
+      <Footer />
     </main>
   );
 };
