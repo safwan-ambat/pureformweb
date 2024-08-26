@@ -12,7 +12,7 @@ const CardList: React.FC = () => {
       </h2>
       <div className="flex md:flex-row gap-4">
         <div className="grid grid-cols-1 gap-[8px] w-full md:w-[297px]">
-          <div className="flex flex-col justify-end bg-black h-[160px] rounded-lg">
+          <div className="flex flex-col justify-center bg-black h-[160px] rounded-lg">
             <h3 className='text-white text-center pb-[13px]'>$150k+ per year</h3>
           </div>
           <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px] items-center">

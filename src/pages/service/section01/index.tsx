@@ -4,26 +4,26 @@ import Card from '@/components/card';
 const steps = [
   {
     number: 1,
-    title: 'Start a new design subscription',
+    title: 'Share Your Vision and objectives',
     description: "We'll discuss your design needs and start as quickly as day 1.",
     tilt: 'transform -rotate-2',  // Tilt to the left
   },
   {
     number: 2,
-    title: 'Get paired with a senior designer',
-    description: 'Your project will be worked on by a vetted senior designer.',
+    title: 'Connect with Your Design Pro',
+    description: "We'll match you with an expert who understands your industry.",
     tilt: 'transform rotate-1',  // Tilt to the right
   },
   {
     number: 3,
     title: 'Offload all your design tasks to us',
-    description: 'Watch your vision turn to life with multiple updates per week.',
+    description: 'See your vision take shape with each strategic iteration.',
     tilt: 'transform -rotate-1',  // Tilt to the left
   },
   {
     number: 4,
-    title: 'Focus on the things that matter',
-    description: 'Leave all the designing to us and focus on growing the biz.',
+    title: 'Lead While We Craft',
+    description: "Focus on driving your business. We'll perfect your visual narrative.",
     tilt: 'transform -rotate-1',  // Tilt to the right
   },
 ];

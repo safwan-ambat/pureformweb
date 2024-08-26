@@ -9,7 +9,7 @@ import img04 from '@/assets/img04.webp';
 const cardData = [
   {
     title: "Bypass the Tedious Hiring Process",
-    description: "Enjoy the ease of having a senior designer ready to start on day 1.",
+    description: "Connect with a skilled designer, ready to bring your ideas to life today",
     image: img01, // Replace with the actual path to your icon
   },
   {
@@ -18,13 +18,13 @@ const cardData = [
     image: img02, // Replace with the actual path to your icon
   },
   {
-    title: "Fully async for more flexibility",
-    description: "Direct communication with a private Slack channel.",
+    title: "Always on, always responsive",
+    description: "Your private Slack channel awaits for direct communication",
     image: img03, // Replace with the actual path to your icon
   },
   {
-    title: "Transparent, Simple Pricing",
-    description: "One simple monthly fee for all your product design needs.",
+    title: "Transparent, Value-Based Pricing",
+    description: "Clear pricing tailored to your project's scope and needs.",
     image: img04, // Replace with the actual path to your icon
   },
 ];

@@ -70,7 +70,7 @@ const PricingCard: React.FC = () => {
         {/* Card Body */}
         <div className="p-[16px] sm:p-[24px]">
           <h5 className="">
-            Perfect if you're looking to build an MVP, improve your product or need ongoing design support.
+                Ideal for launching MVPs, elevating products, or maintaining design excellence
           </h5>
           {/* Action Buttons */}
           <div className="mt-[24px] flex items-center justify-left gap-[24px]">

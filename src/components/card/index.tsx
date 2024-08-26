@@ -17,9 +17,9 @@ const Card: React.FC<CardProps> = ({ number, title, description, tilt = '' }) =>
                   </div>
 
                   </div>
-            <div className="flex-row justify-center items-center h-full "> 
+            <div className="flex-row justify-center items-center h-full  "> 
                 <h5 className="md:text-[18px] text-[12px] font-semibold pr-[20px] md:pr-[30px]">{title}</h5>
-                <p className="md:text-[16px] text-[12px] text-gray-600 mt-[8px] md:mr-[30px] ">{description}</p>
+                <p className="md:text-[16px] text-[12px] text-gray-600 mt-[8px] md:mr-[20px] ">{description}</p>
             </div>
         </div>
            
