@@ -4,7 +4,7 @@ import ToggleButton from '@/components/toggleButton/button';
 import Service from '@/pages/service';
 import Works from '@/pages/works';
 import Footer from '@/pages/service/footer';
-import Button from '@/components/button';
+import ShimmerButton from "@/components/magicui/shimmer-button";
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('offer');
@@ -37,11 +37,12 @@ const App: React.FC = () => {
       
       {/* Responsive Fixed Button at bottom right */}
       <div className="hidden sm:block fixed top-[22px] right-[56px] self-start -rotate-2">
-        <Button
-          text="Book your kickoff"
+        <ShimmerButton
+
           onClick={handleButtonClick}
           className="StyledBtn py-[20px] px-[20px] font-semibold text-[16px]"
-        />
+        >Book your kickoff
+        </ShimmerButton>
       </div>
       <Footer />
     </main>
