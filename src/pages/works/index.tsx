@@ -16,8 +16,15 @@ import mainImg03 from '@/assets/work/w3Main.webp';
 import mob103 from '@/assets/work/w3Mob1.webp';
 import mob203 from '@/assets/work/w3Mob2.webp';
 import web03 from '@/assets/work/w3Web.webp';
+import Button from '@/components/button';
 
 const WorksPage: React.FC = () => {
+
+  const handleButtonClick = () => {
+    window.open('https://cal.com/pureform/20min', '_blank');
+  };
+
+
   return (
     <div className="flex justify-center w-full">
       <div className="w-full max-w-7xl sm:px-8 md:px-12 lg:px-[60px]">
@@ -32,6 +39,14 @@ const WorksPage: React.FC = () => {
           </p>
         </header>
         
+        <div className="sm:hidden w-full fixed bottom-0 z-50 opacity-100 pb-[20px] flex">
+          <Button
+            text="Book your kickoff"
+            onClick={handleButtonClick}
+            className="StyledBtn  py-[16px] px-[14px] font-semibold text-[14px]  -rotate-2 w-full max-w-[160px] mx-auto"
+          />
+        </div>
+
         <div className='px-[16px]'>
           <Template
             title='Superdev'

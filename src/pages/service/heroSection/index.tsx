@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
             w-full
             transition-all duration-300 ease-in-out 
             ${isScrolled
-              ? 'fixed bottom-0 z-50 opacity-100   pb-4 '
+              ? 'fixed bottom-0 z-50 opacity-100   pb-[20px] '
               : 'relative mt-[40px] opacity-100 '
             }
           `}
