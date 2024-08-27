@@ -31,7 +31,7 @@ const cardData = [
 
 const CardList: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-16 px-[16px] lg:px-8">
+    <div className="flex flex-col items-center justify-center mt-[64px] md:mt-[96px] px-[16px] md:px-8">
       <h2 className=" font-bold text-center mb-8">
         We’re the Uber of design
         <br />

@@ -5,9 +5,9 @@ import cardbg from '@/assets/cardBg.webp';
 
 const CardList: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-0 px-[16px] md:px-8">
+    <div className="flex flex-col items-center justify-center mt-[64px] md:mt-[96px] px-[16px] sm:px-8">
       <h2 className="font-bold text-center mb-8 md:px-[315px]">
-        Enjoy top-notch quality and flexibility
+        Enjoy top-notch quality and flexibility 
         <span className="text-gray-400"> without breaking the bank</span>
       </h2>
       <div className="flex md:flex-row gap-4">

@@ -85,7 +85,7 @@ const FAQItem: React.FC<{ item: FAQItem, isOpen: boolean, toggleOpen: () => void
         <span className="text-gray-100 text-lg md:text-[32px] ml-2">{isOpen ? '−' : '+'}</span>
       </button>
       {isOpen && (
-        <div className="p-3 md:px-[32px] md:pb-[24px] rounded-b-[8px] sm:rounded-[16px] -mt-2 text-gray-400 text-[10px] sm:text-[16px] md:text-base space-y-2 ">
+        <div className="p-3 md:px-[32px] md:pb-[24px] rounded-b-[8px] sm:rounded-[16px] -mt-2 text-gray-400 text-[12px] sm:text-[16px] md:text-base space-y-2 ">
           {renderAnswer(item.answer)}
         </div>
       )}
@@ -103,7 +103,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className=" max-w-full sm:max-w-[582px] md:mx-auto mx-[16px] pb-0 pt-[6px] px-[5px] md:pt-[8px] md:px-[8px] faqBg rounded-[10px] md:rounded-[16px]">
+    <div className=" max-w-full sm:max-w-[582px] md:mx-auto  mt-[64px] md:mt-[96px] mx-[16px] pb-0 pt-[6px] px-[5px] md:pt-[8px] md:px-[8px] faqBg rounded-[10px] md:rounded-[16px]">
       {faqData.map((item, index) => (
         <FAQItem
           key={index}

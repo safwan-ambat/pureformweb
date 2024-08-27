@@ -44,7 +44,7 @@ const handleButtonClick = () =>{
  /*margin bottom to be removed when testemonial is unhidden */
 const PricingCard: React.FC = () => {
   return (
-    <div className="flex flex-col items-center py-12 px-4 sm:mb-[32px]">
+    <div className="flex flex-col items-center mt-[64px] md:mt-[96px] px-4 ">
       {/* Header Section */}
       <div className="text-center mb-8 lg:w-[612px]">
         <h2 className=" font-bold text-black">Simplified pricing 
