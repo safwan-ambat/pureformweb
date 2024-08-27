@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      setIsScrolled(scrollPosition > 100); // Adjust this value as needed
+      setIsScrolled(scrollPosition > 50); // Adjust this value as needed
     };
 
     window.addEventListener('scroll', handleScroll);
