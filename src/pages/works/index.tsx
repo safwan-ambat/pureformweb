@@ -25,10 +25,10 @@ const WorksPage: React.FC = () => {
           <h1 className="font-bold my-0">
             Projects shipped for<br/> <span className='font-georgia italic'>startups to unicorns</span>
           </h1>
-          <p className="text-base sm:text-[16px] lg:text-[18px] text-black mt-4 sm:mt-6 lg:mt-[32px] max-w-3xl mx-auto px-[20px] md:px-[60px]">
-            We are your design partner that's always available
-            as you grow or downsize. You can pause or cancel anytime,
-            just need a quick fix? Deck for a YC call? Come back unpause and reuse your remaining days.
+          <p className="text-base sm:text-[16px] lg:text-[18px] text-black mt-4 sm:mt-6 lg:mt-[32px] max-w-3xl mx-auto px-[20px] md:px-[120px]">
+          We’re your design partner, ready whenever you need us—whether you’re expanding,
+          downsizing, or just need a quick touch-up. Got a last-minute deck for a YC call?
+          We’ve got you covered. Reach out anytime, and we’ll jump right in
           </p>
         </header>
         

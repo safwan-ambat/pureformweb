@@ -41,19 +41,21 @@ const HeroSection: React.FC = () => {
         <div 
           className={`
             sm:hidden 
+            w-full
             transition-all duration-300 ease-in-out 
             ${isScrolled
-              ? 'fixed bottom-0 left-0 right-0 z-50 opacity-100 bg-gradient-to-t from-[#999999] to-transparent pt-8 pb-4 px-4'
-              : 'relative mt-4 opacity-100'
+              ? 'fixed bottom-0 z-50 opacity-100   pb-4 '
+              : 'relative mt-[40px] opacity-100 '
             }
           `}
         >
           <Button
             text="Book your kickoff"
             onClick={handleButtonClick}
-            className="StyledBtn py-[16px] px-[14px] font-semibold text-[14px] mt-[24px] -rotate-2 w-full max-w-[200px] mx-auto"
+            className="StyledBtn  py-[16px] px-[14px] font-semibold text-[14px]  -rotate-2 w-full max-w-[160px] mx-auto"
           />
         </div>
+        {/* <div className="fixed h-[20px] w-full bottom-0 opacity-50 bg-gradient-to-t from-[#898989]  to-transparent z-40"></div> */}
       </section>
     </>
   );
