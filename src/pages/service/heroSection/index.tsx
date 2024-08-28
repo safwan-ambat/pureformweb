@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Styled from '@/components/styledWord';
-import Button from '@/components/button';
+import ShimmerButton from "@/components/magicui/shimmer-button";
 
 const HeroSection: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,11 +49,12 @@ const HeroSection: React.FC = () => {
             }
           `}
         >
-          <Button
-            text="Book your kickoff"
+          <ShimmerButton
             onClick={handleButtonClick}
-            className="StyledBtn  py-[16px] px-[14px] font-semibold text-[14px]  -rotate-2 w-full max-w-[160px] mx-auto"
-          />
+            className=" py-[16px] px-[14px] font-semibold text-[14px]  -rotate-2 w-full max-w-[160px] mx-auto"
+          >
+            Book your kickoff
+          </ShimmerButton>
         </div>
         {/* <div className="fixed h-[20px] w-full bottom-0 opacity-50 bg-gradient-to-t from-[#898989]  to-transparent z-40"></div> */}
       </section>

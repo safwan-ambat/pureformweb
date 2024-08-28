@@ -14,7 +14,7 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
   (
     {
       shimmerColor = "#ffffff",
-      shimmerSize = "0.05em",
+      shimmerSize = "0.1em",
       shimmerDuration = "3s",
       borderRadius = "100px",
       background = "rgba(0, 0, 0, 1)",
@@ -64,7 +64,7 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
         <div
           className={cn(
             "absolute inset-0 h-full w-full",
-            "rounded-2xl px-4 py-1.5 text-sm font-medium shadow-[inset_0_-8px_10px_#ffffff1f]",
+            "rounded-full px-4 py-1.5 text-sm font-medium shadow-[inset_0_-8px_10px_#ffffff1f]",
             // transition
             "transform-gpu transition-all duration-300 ease-in-out",
             // on hover
@@ -77,7 +77,7 @@ const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonProps>(
         {/* backdrop */}
         <div
           className={cn(
-            "absolute -z-20 StyledBtn "
+            "absolute -z-20 StyledBtn [inset:var(--cut)]"
           )}
           // [background:var(--bg)] [border-radius:var(--radius)] [inset:var(--cut)]
         />

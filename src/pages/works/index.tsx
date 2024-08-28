@@ -16,7 +16,7 @@ import mainImg03 from '@/assets/work/w3Main.webp';
 import mob103 from '@/assets/work/w3Mob1.webp';
 import mob203 from '@/assets/work/w3Mob2.webp';
 import web03 from '@/assets/work/w3Web.webp';
-import Button from '@/components/button';
+import ShimmerButton from "@/components/magicui/shimmer-button";
 
 const WorksPage: React.FC = () => {
 
@@ -40,11 +40,12 @@ const WorksPage: React.FC = () => {
         </header>
         
         <div className="sm:hidden w-full fixed bottom-0 z-50 opacity-100 pb-[20px] flex">
-          <Button
-            text="Book your kickoff"
+          <ShimmerButton
             onClick={handleButtonClick}
             className="StyledBtn  py-[16px] px-[14px] font-semibold text-[14px]  -rotate-2 w-full max-w-[160px] mx-auto"
-          />
+          >
+            Book your kickoff
+          </ShimmerButton>
         </div>
 
         <div className='px-[16px]'>

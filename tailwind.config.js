@@ -32,6 +32,7 @@ module.exports = {
       },
 
 
+      // shimmer btn
       animation: {
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
@@ -57,6 +58,8 @@ module.exports = {
           },
         },
       },
+
+      // shimmer btn
       
     },
     screens: {
