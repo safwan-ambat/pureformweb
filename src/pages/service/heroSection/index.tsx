@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Styled from '@/components/styledWord';
 import ShimmerButton from "@/components/magicui/shimmer-button";
+import VimeoPlayer from '@/components/player';
 
 const HeroSection: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,8 +36,10 @@ const HeroSection: React.FC = () => {
             Choose your timeline 1 month <Styled>\</Styled> 2 months <Styled>\\</Styled> 3 months <Styled>\\\</Styled> and let's
             create something remarkable together, one building block at a time.
           </p>
+
+         
         </div>
-        
+        <VimeoPlayer videoId="1010854448?h=ceddfff576" />
         {/* Mobile-only Button with smooth transition and bottom shadow */}
         <div 
           className={`
