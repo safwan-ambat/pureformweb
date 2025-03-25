@@ -17,6 +17,8 @@ import mob103 from '@/assets/work/w3Mob1.webp';
 import mob203 from '@/assets/work/w3Mob2.webp';
 import web03 from '@/assets/work/w3Web.webp';
 import ShimmerButton from "@/components/magicui/shimmer-button";
+import VimeoEmbed from '@/components/player';
+
 
 const WorksPage: React.FC = () => {
 
@@ -49,6 +51,20 @@ const WorksPage: React.FC = () => {
         </div>
 
         <div className='px-[16px]'>
+
+
+            <div className="mb-8 rounded-lg overflow-hidden">
+                <h2 className="text-xl mb-2">Product video</h2>
+                <div className="max-full">
+                  <VimeoEmbed
+                    videoId="1010854448?h=ceddfff576"
+                    autoplay={true}
+                    thumbnailImage="src/assets/work/wMob2.webp"
+                  />
+                </div>
+             </div>
+
+
           <Template
             title='Superdev'
             about='No-code DevOps automation Platform'
@@ -57,6 +73,7 @@ const WorksPage: React.FC = () => {
             tab2={{ src: `${mob2}`, alt: "Image 2" }}
             webImg={{ src: `${web}`, alt: "Image 3" }}
           />
+           
           <Template
             title='Mywasiyat'
             about='Enabling every Indian to create a legally valid will'
