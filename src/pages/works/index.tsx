@@ -59,7 +59,7 @@ const WorksPage: React.FC = () => {
                   <VimeoEmbed
                     videoId="1010854448?h=ceddfff576"
                     autoplay={true}
-                    thumbnailImage="src/assets/work/wMob2.webp"
+                    thumbnailImage={mob2}
                   />
                 </div>
              </div>
