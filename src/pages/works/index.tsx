@@ -17,7 +17,7 @@ import mob103 from '@/assets/work/w3Mob1.webp';
 import mob203 from '@/assets/work/w3Mob2.webp';
 import web03 from '@/assets/work/w3Web.webp';
 import ShimmerButton from "@/components/magicui/shimmer-button";
-import VimeoEmbed from '@/components/player';
+import YouTubeEmbed from '@/components/player';
 
 
 const WorksPage: React.FC = () => {
@@ -56,10 +56,12 @@ const WorksPage: React.FC = () => {
             <div className="mb-8 rounded-lg overflow-hidden">
                 <h2 className="text-xl mb-2">Product video</h2>
                 <div className="max-full">
-                  <VimeoEmbed
-                    videoId="1010854448?h=ceddfff576"
-                    autoplay={true}
-                    thumbnailImage={mob2}
+                <YouTubeEmbed 
+                  videoId="gVBi4fxeJ10" 
+                  // Optional: thumbnailImage="your-custom-thumbnail.jpg" 
+                  loop={true}
+                  responsive={true}
+                  borderRadius="0.5rem"
                   />
                 </div>
              </div>
