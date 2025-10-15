@@ -61,7 +61,7 @@ const PricingCard: React.FC = () => {
                 alt="icon"
                 className="h-[16px] w-[16px] md:h-[24px] md:w-[24px]"
               />
-              <h5 className=" font-semibold">Design with Pureform</h5>
+              <h5 className=" font-semibold">Design with Midday</h5>
               
             </div>
             <h5 className="">● 3 spots left</h5>

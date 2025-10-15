@@ -34,7 +34,7 @@ const CardList: React.FC = () => {
           </div>
           <div className="flex gap-2 border-t-2 pt-[16px] mt-4 h-[48px] items-center">
             <img src={img02} alt="Icon" className='h-6 w-6 object-contain'/>
-            <h5 className="font-semibold">Engaging with Pureform</h5>
+            <h5 className="font-semibold">Engaging with Midday</h5>
           </div>
           <p className='text-[12px] h-[36px]'>Expert design, whenever you need it. No strings attached</p>
         </div>
